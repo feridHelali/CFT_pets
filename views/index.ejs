@@ -1,15 +1,86 @@
 <%- include('./head')-%>
-    <html>
+<html>
 
-    <body class="text-center">
-        <%- include('./nav')-%>
-            <%- include('./carousel')-%>
-                <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-                    <main role="main" class="container flex">
-                        Hello World
-                    </main>
+<body class="text-center">
+    <%- include('./nav')-%>
+    <%- include('./carousel')-%>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <main role="main" class="flex justify-center  flex-row flex-wrap">
+
+
+            <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
+                <img class="w-full" src="images/cats/greycat.jpg" alt="grey cat">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Cats</div>
+                    <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                        Maiores et perferendis eaque, exercitationem praesentium nihil.
+                    </p>
                 </div>
-                <%- include('./footer')-%>
-    </body>
+                <div class="px-6 pt-4 pb-2">
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                </div>
+                <button
+                    class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow mb-4">
+                    Learn more!
+                </button>
+            </div>
 
-    </html>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
+                <img class="w-full" src="images/hamsters/new hamster.jpg" alt="hamster">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Hamsters</div>
+                    <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                        Maiores et perferendis eaque, exercitationem praesentium nihil.
+                    </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                </div>
+                <button
+                    class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow mb-4">
+                    Learn more!
+                </button>
+            </div>
+
+
+            <div class="max-w-sm rounded overflow-hidden shadow-lg m-10">
+                <img class="w-full" src="images/dogs/basenji.jpg" alt="basenji dog">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Dogs</div>
+                    <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
+                        Maiores et perferendis eaque, exercitationem praesentium nihil.
+                    </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                    <span
+                        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                </div>
+                <button
+                    class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow mb-4">
+                    Learn more!
+                </button>
+            </div>
+            <a href="error.ejs">error</a>
+        </main>
+    </div>
+    <%- include('./footer')-%>
+</body>
+
+</html>

@@ -5,10 +5,111 @@
         <%- include('./nav')-%>
             <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
                 <main role="main" class="container flex">
-                    <h1>Hamsters Works</h1>
                 </main>
             </div>
-            <%- include('./footer')-%>
-    </body>
+            <!HAMSTERS>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+            <style>
+                body,
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    font-family: "Karma", sans-serif
+                }
+                
+                .w3-bar-block .w3-bar-item {
+                    padding: 20px
+                }
+            </style>
+
+            <body>
+
+
+                <!-- Sidebar (hidden by default) -->
+                <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+                    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+                </nav>
+
+                <!-- Top menu -->
+                <div class="w3-top">
+                    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+                        <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+                        <div class="w3-right w3-padding-16">Mail</div>
+                        <div class="w3-center w3-padding-16">Our Hamsters ♥</div>
+                    </div>
+                </div>
+
+
+                <!-- !PAGE CONTENT! -->
+
+                <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px;margin-left:300px">
+
+                    <!-- First Photo Grid-->
+                    <div class="w3-row-padding w3-padding-16 w3-center" id="text">
+                        <div class="w3-quarter">
+                            <img src="images/hamsters/chinese hamster.jpg" alt="" style="width:100%">
+                            <h3>Chinese Hamster</h3>
+                            <p>POPULATION SIZE UNKNOWN LIFE SPAN 2-3 YRS WEIGHT 30-45 G LENGTH 82-127 MM
+                            </p>
+                        </div>
+                        <div class="w3-quarter">
+                            <img src="images/hamsters/Cricetulus.jpg" alt="" style="width:200%">
+                            <h3>Cricetulus</h3>
+                            <p>It is thick-bodied, is relatively large (13.6–18.4 cm long), has a long white tail (5–8 cm), and weighs 75–185 g. The fur is gray-brown and smooth and the belly is white. The white-tailed rat has un-grooved, yellow incisor
+                                teeth; : </p>
+                        </div>
+                        <div class="w3-quarter">
+                            <img src="images/hamsters/european hamster.jpg" alt="" style="width:90%">
+                            <h3>European Hamster</h3>
+                            <p>These may be quite large and may consist of a total of 65 kg of food including. European hamsters hibernate .</p>
+                        </div>
+
+                    </div>
+
+                    <!-- Second Photo Grid-->
+                    <div class="w3-row-padding w3-padding-16 w3-center" id="text" style="margin-left:200px">
+                        <div class="w3-quarter">
+                            <img src="images/hamsters/golden hamster.jpg" alt="" style="width:120%">
+                            <h3>Golden Hamster</h3>
+                            <p>Golden hamster Order : Rodentia Suborder : Sciurognathi Family : Muridae Subfamily : Cricetinae Species : Mesocricetus auratus Adult weight : 0.105 kg (0.231 lbs) Maximum longevity : 4 years Female maturity :48 days Male maturity
+                                : 48 days Gestation : 16 days Weaning
+                            </p>
+                        </div>
+                        <div class="w3-quarter">
+                            <img src="images/hamsters/Roborovski dwarf hamster.jpg" alt="" style="width:150%">
+                            <h3>Roborovski dwarf hamster</h3>
+                            <p>averaging under 2 centimetres (0.8 in) at birth and 4.5–5 centimetres (1.8–2.0 in) and 20–25 grams (0.71–0.88 oz) during adulthood. Distinguishing characteristics of the Roborovskis are eyebrow-like white spots and the lack
+                                of any dorsal stripe (found on the other members of the genus Phodopus). The average lifespan for the Roborovski hamster is three years, though this is dependent on living conditions (extremes being four years in captivity
+                                and two in the wild).</p>
+                        </div>
+
+                        <hr id="about">
+
+
+                        <!-- End page content -->
+                    </div>
+
+                    <script>
+                        // Script to open and close sidebar
+                        function w3_open() {
+                            document.getElementById("mySidebar").style.display = "block";
+                        }
+
+                        function w3_close() {
+                            document.getElementById("mySidebar").style.display = "none";
+                        }
+                    </script>
+
+            </body>
 
     </html>
+    <%- include('./footer')-%>
+        </body>
+
+        </html>

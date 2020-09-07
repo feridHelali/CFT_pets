@@ -5,10 +5,127 @@
         <%- include('./nav')-%>
             <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
                 <main role="main" class="container flex">
-                    <h1>Dogs Works</h1>
                 </main>
             </div>
-            <%- include('./footer')-%>
-    </body>
+
+            <!DOGS>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+            <style>
+                body,
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    font-family: "Karma", sans-serif
+                }
+                
+                .w3-bar-block .w3-bar-item {
+                    padding: 20px
+                }
+            </style>
+
+            <body>
+
+
+                <!-- Sidebar (hidden by default) -->
+                <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+                    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+                </nav>
+
+                <!-- Top menu -->
+                <div class="w3-top">
+                    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+                        <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+                        <div class="w3-right w3-padding-16">Mail</div>
+                        <div class="w3-center w3-padding-16">Our dogs ♥</div>
+                    </div>
+                </div>
+
+
+                <!-- !PAGE CONTENT! -->
+
+                <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+                    <!-- First Photo Grid-->
+                    <div class="w3-row-padding w3-padding-16 w3-center" id="text">
+                        <div class="w3-quarter">
+                            <img src="images/dogs/boxer.jpg" alt="Boxer" style="width:20%">
+                            <h3>Boxer</h3>
+                            <p>Size: Weight Range: Male: 65-80 lbs. Female: 50-65 lbs. Height at Withers: Male: 24 in. Female: 22 in. Features: Brachycephalic (squashed face), droopy eyes, floppy ears (naturally) Expectations: Exercise Requirements: >40
+                                minutes/day Energy Level: Very energetic Longevity Range: 8-10 yrs. Tendency to Drool: High Tendency to Snore: Moderate Tendency to Bark: Low Tendency to Dig: Low Social/Attention Needs: High Bred For: Bull-baiting, guardian
+                                Coat: Length: Short Characteristics: Flat Colors: Fawn, brindle, with or without white flashing and black mask Overall Grooming Needs: Low</p>
+                        </div>
+                        <div class="w3-quarter">
+                            <img src="images/dogs/brittany.jpg" alt="Brittany" style="width:20%">
+                            <h3>Brittany</h3>
+                            <p>Size: Weight Range: Male: 30-40 lbs. Female: 30-40 lbs. Height at Withers: Male: 19 in. Female: 18 in. Features: Floppy ears (naturally) Expectations: Exercise Requirements: >40 minutes/day Energy Level: Very energetic Longevity
+                                Range: 12-13 yrs. Tendency to Drool: Low Tendency to Snore: Low Tendency to Bark: moderate to high Tendency to Dig: Low Social/Attention Needs: High Bred For: Pointing, retrieving Coat: Length: Medium Characteristics: Wavy
+                                Colors: Orange and white, liver and white, tri-colored Overall Grooming Needs: Moderate</p>
+                        </div>
+                        <div class="w3-quarter">
+                            <img src="images/dogs/Dachshund.jpg" alt="Dachshund" style="width:20%">
+                            <h3>Dachshund</h3>
+                            <p>Size: Weight Range: Male: 9-32 lbs. Female: 9-32 lbs. Height at Withers: Male: Female: Features: Long back, dolichocephalic (long face), short bowed legs, floppy ears (naturally) Expectations: Exercise Requirements: 20-40 minutes/day
+                                Energy Level: Very energetic Longevity Range: 12-14 yrs. Tendency to Drool: Low Tendency to Snore: Low Tendency to Bark: High Tendency to Dig: High Social/Attention Needs: Moderate Coat: Length: Short/Long Characteristics:
+                                Hard coat. Straight. Flat. Colors: Black, chocolate, wild boar, gray or fawn with tan, brindle Overall Grooming Needs: Low</p>
+                        </div>
+                        <div class="w3-quarter">
+                            <img src="images/dogs/dalmatian.jpg" alt="Dalmatian" style="width:20%">
+                            <h3>Dalmatian</h3>
+                            <p>Size: Weight Range: Male: 45-60 lbs. Female: 45-60 lbs. Height at Withers: Male: 21-23 in. Female: 19-22 in. Features: Floppy ears (naturally). Expectations: Exercise Requirements: >40 minutes/day Energy Level: Very energetic
+                                Longevity Range: 12-14 yrs. Tendency to Drool: Low Tendency to Snore: Low Tendency to Bark: Low Tendency to Dig: Low Social/Attention Needs: High Bred For: Carriage dog Coat: Length: Short Characteristics: Flat Colors:
+                                White with black spots Overall Grooming Needs: Low</p>
+                        </div>
+                    </div>
+
+                    <!-- Second Photo Grid-->
+                    <div class="w3-row-padding w3-padding-16 w3-center">
+                        <div class="w3-quarter">
+                            <img src="images/dogs/french bulldog.jpg" alt="french bulddug" style="width:20%">
+                            <h3>French Bulldog</h3>
+                            <p>Size: Weight Range: Male: 25-27 lbs. Female: 25-27 lbs. Height at Withers: Male: 12 in. Female: 11 in. Features: Brachycephalic (squashed face), short bowed legs. Upright ears (naturally) Expectations: Exercise Requirements:
+                                <20 minutes/day Energy Level: Average Longevity Range: 9-11 yrs. Tendency to Drool: High Tendency to Snore: High Tendency to Bark: Moderate Tendency to Dig: Low Social/Attention Needs: High Bred For: Lapdog Coat: Length: Short Characteristics: Flat Colors:
+                                    Black with or without white, fawn, white Overall Grooming Needs: Moderate</p>
+                        </div>
+                        <div class="w3-quarter">
+                            <img src="images/dogs/shiba inu.jpg" alt="" style="width:100%">
+                            <h3>Shiba inu</h3>
+                            <p>Size: Weight Range: Male: 9-16 lbs. Female: 9-16 lbs. Height at Withers: Male: 10 in. Female: 10 in. Features: Brachycephalic (squashed face), floppy ears (naturally) Expectations: Exercise Requirements:
+                                <20 minutes/day Energy Level: Average Longevity Range: 11-14 yrs. Tendency to Drool: Low Tendency to Snore: Low Tendency to Bark: High Tendency to Dig: Moderate Social/Attention Needs: High Bred For: Lapdog Coat: Length: Long Characteristics: Straight
+                                    Colors: Any color permissible Overall Grooming Needs: High</p>
+                        </div>
+                        <div class="w3-quarter">
+                            <img src="images/dogs/siberian husky.jpg" alt="" style="width:100%">
+                            <h3>Siberian Husky</h3>
+                            <p>Size: Weight Range: Male: 45 lbs. Female: 35-50 lbs. Height at Withers: Male: 23 in. Female: 21 in. Features: Upright ears (naturally) Expectations: Exercise Requirements: >40 minutes/day Energy Level: Average Longevity Range:
+                                11-13 yrs. Tendency to Drool: Low Tendency to Snore: Low Tendency to Bark: Moderate Tendency to Dig: Moderate Social/Attention Needs: Moderate Bred For: Sled pulling Coat: Length: Medium Characteristics: Double coat, straight
+                                Colors: All colors from black to pure white Overall Grooming Needs: Moderate</p>
+                        </div>
+                        <div class="w3-quarter">
+                            <img src="images/dogs/yorkshire terrier.jpg" alt="" style="width:100%">
+                            <h3>Yorkshire Terrier</h3>
+                            <p>Size: Weight Range: Male: 5 - 7 lbs. Female: 5 - 7 lbs. Height at Withers: Male: 9 in. Female: 8 in. Features: Long back, upright ears (naturally) Expectations: Exercise Requirements:
+                                <20 minutes/day Energy Level: Very energetic Longevity Range: 14-16 yrs. Tendency to Drool: Low Tendency to Snore: Low Tendency to Bark: High Tendency to Dig: Low Social/Attention Needs: Moderate Bred For: Small vermin hunting Coat: Length: Long Characteristics:
+                                    Straight Colors: Blue and tan Overall Grooming Needs: High</p>
+                        </div>
+
+
+                        <hr id="about">
+
+
+                        <!-- End page content -->
+                    </div>
+
+
+            </body>
 
     </html>
+    </body>
+    <%- include('./footer')-%>
+
+        </html>
